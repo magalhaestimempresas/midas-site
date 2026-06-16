@@ -19,3 +19,158 @@ input,button{width:100%;padding:12px;margin:8px 0}
 footer{background:#111;color:#fff;text-align:center;padding:30px}
 .whatsapp{position:fixed;right:20px;bottom:20px;background:var(--green);width:70px;height:70px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;font-size:30px}
 @media(max-width:900px){.grid4,.grid3,.grid2{grid-template-columns:1fr}nav{display:none}}
+/* =========================
+   SOBRE
+========================= */
+
+.about{
+  padding:100px 0;
+  background:#fff;
+}
+
+.section-tag{
+  display:inline-block;
+  background:rgba(212,175,55,.15);
+  color:#d4af37;
+  padding:10px 20px;
+  border-radius:30px;
+  font-weight:700;
+  margin-bottom:20px;
+}
+
+.check-list{
+  list-style:none;
+  margin-top:25px;
+}
+
+.check-list li{
+  margin-bottom:12px;
+  font-weight:600;
+}
+
+/* =========================
+   TIM SPECIALIST
+========================= */
+
+.tim-specialist{
+  background:#f7f9fc;
+  padding:100px 0;
+}
+
+.tim-specialist img{
+  width:100%;
+  border-radius:20px;
+  box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+/* =========================
+   RESULTADOS
+========================= */
+
+.results{
+  background:#002f87;
+  color:white;
+  padding:100px 0;
+}
+
+.results h2{
+  text-align:center;
+  margin-bottom:60px;
+}
+
+.results .benefit-grid div{
+  background:rgba(255,255,255,.08);
+  backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,.1);
+  color:white;
+}
+
+.results h3{
+  margin-bottom:15px;
+  color:#d4af37;
+}
+
+/* =========================
+   FORMULÁRIO
+========================= */
+
+#contato{
+  background:#f5f7fb;
+}
+
+#contato h2{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+#leadForm{
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+#leadForm input{
+  border:1px solid #ddd;
+  transition:.3s;
+}
+
+#leadForm input:focus{
+  outline:none;
+  border-color:#002f87;
+}
+
+#leadForm button{
+  background:#25D366;
+  transition:.3s;
+}
+
+#leadForm button:hover{
+  transform:translateY(-3px);
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+  background:#001f5a;
+  color:white;
+  text-align:center;
+  padding:80px 20px;
+}
+
+footer img{
+  height:90px;
+  margin-bottom:25px;
+}
+
+footer p{
+  margin-bottom:10px;
+}
+
+/* =========================
+   IMAGENS
+========================= */
+
+.two-columns img{
+  width:100%;
+  border-radius:20px;
+  box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+/* =========================
+   HOVER DOS PLANOS
+========================= */
+
+.plan-card{
+  transition:.4s;
+}
+
+.plan-card:hover{
+  transform:translateY(-10px);
+}
+
+.featured:hover{
+  transform:translateY(-10px) scale(1.03);
+}
