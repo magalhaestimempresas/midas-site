@@ -1,1 +1,8 @@
-function enviarWhats(e){e.preventDefault();const nome=document.getElementById('nome').value;const empresa=document.getElementById('empresa').value;const linhas=document.getElementById('linhas').value;const msg=`Olá, gostaria de receber uma proposta TIM Empresas.%0ANome: ${nome}%0AEmpresa: ${empresa}%0ALinhas: ${linhas}`;window.open('https://wa.me/5543988289424?text='+msg,'_blank');}
+
+function enviar(e){
+e.preventDefault();
+let n=document.getElementById('nome').value;
+let emp=document.getElementById('empresa').value;
+let msg=`Olá, gostaria de receber uma proposta TIM Empresas.%0ANome:${n}%0AEmpresa:${emp}`;
+window.open('https://wa.me/5543988289424?text='+msg,'_blank');
+}
